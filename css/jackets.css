@@ -1,0 +1,206 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/OpenSans-Light.ttf") format("ttf"),
+    url("/fonts/OpenSans-Light.ttf") format("ttf");
+}
+
+body {
+  background-color: #45a3ff;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  animation: fadeIn 0.5s;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.logo {
+  width: 10vh;
+  margin-left: 1vh;
+}
+
+.jacketInfo {
+  white-space: pre-line;
+  font-size: 2.2vh;
+  margin-top: -4vh;
+}
+
+.heroImage {
+  width: 50%;
+  height: 16vw;
+}
+.jacketCotainer {
+  display: grid;
+  grid-template-areas:
+    "jacket1 jacket2"
+    "jacket3 jacket4";
+}
+
+.microLightJacket {
+  grid-area: jacket1;
+  margin-left: 6vw;
+}
+
+.expeditionJacket {
+  grid-area: jacket2;
+}
+
+.senjaJacket {
+  grid-area: jacket3;
+}
+
+.ulrikenJacket {
+  grid-area: jacket4;
+}
+.rain-jacket {
+  margin-left: -2vh;
+}
+
+button {
+  position: absolute;
+  left: 79vw;
+  top: 1vw;
+  position: absolute;
+  left: 79vw;
+  top: 1vw;
+  position: absolute;
+  left: 59vw;
+  top: -5vw;
+  margin-top: 5.4%;
+  margin-left: 1.7%;
+  background-color: #6979f8;
+  border: none;
+  color: black;
+  border-radius: 23vw;
+  height: 4.3vh;
+  font-size: 2vh;
+}
+.footer {
+  background-color: rgba(29, 36, 42, 0.9);
+  padding: 0em 2em 1em 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 35vh 0 0 0;
+}
+
+.footerRainyDays,
+a {
+  margin: 0 1em 0 0;
+  color: #bfbfbf;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    text-align: center;
+    margin-top: -2vh;
+  }
+  .jacketInfo {
+    text-align: center;
+    margin-top: -4vh;
+  }
+
+  .jacketCotainer {
+    display: grid;
+    grid-template-areas:
+      "jacket1 jacket2"
+      "jacket3 jacket4";
+    margin-left: 31%;
+    grid-template-columns: max-content;
+  }
+
+  .expeditionJacket {
+    margin-left: 3%;
+  }
+
+  .ulrikenJacket {
+    grid-area: jacket4;
+    margin-left: 4%;
+  }
+
+  button {
+    position: absolute;
+    left: 79vw;
+    top: 1vw;
+    position: absolute;
+    left: 79vw;
+    top: 1vw;
+    position: absolute;
+    left: 59vw;
+    top: -5vw;
+    margin-top: 5.4%;
+    margin-left: 1.7%;
+    background-color: #6979f8;
+    border: none;
+    color: black;
+    border-radius: 23vw;
+    height: 4.3vh;
+    font-size: 2vh;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .jacketCotainer {
+    display: grid;
+    grid-template-areas:
+      "jacket1 jacket2"
+      "jacket3 jacket4";
+    margin-left: 36%;
+    grid-template-columns: max-content;
+  }
+
+  button {
+    position: absolute;
+    left: 79vw;
+    top: -5vw;
+    font-size: 1.9vh;
+    margin-top: 5.4%;
+    margin-left: 1.7%;
+    background-color: #6979f8;
+    border: none;
+    color: black;
+    border-radius: 1vw;
+    height: 2.3vw;
+    font-size: 1.2vw;
+  }
+}
+
+@media screen and (min-width: 1178px) {
+  .jacketCotainer {
+    display: grid;
+    grid-template-areas:
+      "jacket1 jacket2"
+      "jacket3 jacket4";
+    margin-left: 38%;
+    grid-template-columns: max-content;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .jacketCotainer {
+    display: grid;
+    grid-template-areas:
+      "jacket1 jacket2"
+      "jacket3 jacket4";
+    margin-left: 40%;
+    grid-template-columns: max-content;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .jacketCotainer {
+    display: grid;
+    grid-template-areas:
+      "jacket1 jacket2"
+      "jacket3 jacket4";
+    margin-left: 43%;
+    grid-template-columns: max-content;
+  }
+}

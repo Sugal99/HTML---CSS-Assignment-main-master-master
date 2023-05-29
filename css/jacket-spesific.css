@@ -1,0 +1,296 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/OpenSans-Light.ttf") format("ttf"),
+    url("/fonts/OpenSans-Light.ttf") format("ttf");
+}
+
+body {
+  background-color: #45a3ff;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  animation: fadeIn 0.5s;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.logo {
+  width: 10vh;
+  margin-left: 1vh;
+}
+
+.microlightJacketSpesific {
+  width: 68vw;
+  margin-left: 0vh;
+  border-radius: 32px;
+  border: 1px solid #000000;
+}
+
+.jacketDetails {
+  font-size: 6vw;
+  margin-top: -4%;
+}
+.dropdown_menu {
+  border-radius: -74px;
+  width: 94vw;
+  margin-top: -5%;
+  border-radius: 44px;
+}
+
+.product-info {
+  font-size: 5vw;
+  white-space: pre-line;
+  margin-top: -8%;
+}
+
+.welcome_page_button {
+  background-color: #6979f8;
+  border: none;
+  color: white;
+  padding: 4px;
+  margin-top: -8%;
+  border-radius: 3px;
+  display: flex;
+  font-size: 6vw;
+  margin-left: 72vw;
+}
+
+.product-information {
+  font-size: 6vw;
+  margin-top: 13%;
+}
+
+footer {
+  background-color: rgba(29, 36, 42, 0.9);
+  padding: 0em 2em 1em 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5vh 0 0 0;
+}
+
+.footerRainyDays,
+a {
+  margin: 0 1em 0 0;
+  color: #bfbfbf;
+  text-decoration: none;
+}
+h3 {
+  font-size: 2vh;
+}
+
+.addToCart {
+  margin-top: 15.4%;
+  margin-left: 1%;
+  background-color: #6979f8;
+  border: none;
+  color: black;
+  border-radius: 1vw;
+  height: 6.3vw;
+  font-size: 4vw;
+  position: absolute;
+}
+
+.jacket-name,
+.jacket-color,
+.jacket-price {
+  font-weight: 700;
+  font-size: 6vw;
+  margin-top: 1vh;
+}
+.product-info {
+  font-size: 5vw;
+  white-space: pre-line;
+  margin-top: -3%;
+}
+
+@media screen and (min-width: 768px) {
+  .spesificJacketContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .product-info {
+    text-align: center;
+    font-size: 3.3vw;
+    margin-top: -3%;
+  }
+
+  .microlightJacketSpesific {
+    width: 41vw;
+    margin-left: -1vh;
+    border-radius: 32px;
+    border: 1px solid #000000;
+  }
+
+  .jacketDetails {
+    font-size: 3.3vw;
+    margin-left: 4%;
+  }
+  .product-information {
+    font-size: 3.3vw;
+    text-align: center;
+    margin-top: 7%;
+  }
+
+  .dropdown_menu {
+    width: 42vw;
+    margin-top: -2%;
+    height: 21px;
+    margin-left: -1vw;
+  }
+  .submit_btn {
+    color: red;
+  }
+
+  .welcome_page_button {
+    background-color: #6979f8;
+    border: none;
+    color: white;
+    padding: 4px;
+    margin-top: -6%;
+    border-radius: 3px;
+    display: flex;
+    font-size: 4.3vw;
+    margin-left: 79vw;
+  }
+  .addToCart {
+    margin-top: 7.4%;
+    margin-left: -9%;
+    background-color: #6979f8;
+    border: none;
+    color: black;
+    border-radius: 1vw;
+    height: 4.3vw;
+    font-size: 3.2vw;
+  }
+  .jacket-name,
+  .jacket-color,
+  .jacket-price {
+    font-weight: 700;
+    font-size: 3vw;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .microlightJacketSpesific {
+    width: 18vw;
+    margin-left: -1vh;
+    border-radius: 32px;
+    border: 1px solid #000000;
+  }
+
+  .product-information {
+    font-size: 2vw;
+    text-align: center;
+    margin-top: 6%;
+  }
+  .jacketDetails {
+    font-size: 1.8vw;
+    margin-top: -1%;
+    margin-left: 18px;
+  }
+  .product-information {
+    font-size: 2vw;
+    text-align: center;
+    margin-top: 7%;
+  }
+  .jacket-name,
+  .jacket-color,
+  .jacket-price {
+    font-weight: 700;
+    font-size: 2vw;
+  }
+  .dropdown_menu {
+    width: 42vw;
+    margin-top: -1%;
+    height: 26px;
+    margin-left: -1vw;
+  }
+  .product-info {
+    text-align: center;
+    font-size: 1.1vw;
+    margin-top: 0%;
+  }
+
+  .welcome_page_button {
+    background-color: #6979f8;
+    border: none;
+    color: white;
+    padding: 4px;
+    margin-top: 2%;
+    border-radius: 3px;
+    display: flex;
+    font-size: 2.3vw;
+    margin-left: 31vw;
+  }
+  .addToCart {
+    margin-top: 5.4%;
+    margin-left: -6.3%;
+    background-color: #6979f8;
+    border: none;
+    color: black;
+    border-radius: 1vw;
+    height: 3.3vw;
+    font-size: 2.2vw;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .microlightJacketSpesific {
+    width: 24vw;
+    margin-left: -1vh;
+    border-radius: 32px;
+    border: 1px solid rgb(0, 0, 0);
+  }
+  .jacketDetails {
+    font-size: 2vw;
+  }
+
+  .dropdown_menu {
+    width: 42vw;
+    margin-top: -1%;
+    height: 31px;
+    margin-left: -1vw;
+    border-radius: 44px;
+  }
+
+  .product-information {
+    text-align: center;
+    margin-top: 7%;
+    margin-left: -6%;
+    font-size: 2.4vw;
+  }
+  .product-info {
+    text-align: center;
+    font-size: 1.9vw;
+    margin-top: -3vh;
+  }
+
+  .welcome_page_button {
+    background-color: #6979f8;
+    border: none;
+    color: white;
+    padding: 4px;
+    margin-top: -1%;
+    border-radius: 3px;
+    display: flex;
+    font-size: 2.9vw;
+    margin-left: 64vw;
+  }
+  .addToCart {
+    margin-top: 5.4%;
+    margin-left: -7.3%;
+    background-color: #6979f8;
+    border: none;
+    color: black;
+    border-radius: 1vw;
+    height: 3.3vw;
+    font-size: 2.2vw;
+  }
+}
