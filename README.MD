@@ -22,6 +22,8 @@ The tech used in this projects are as following:
 - CSS
 - Javascript
 - WooCommerece Api
+- Wordpress Api
+
 
 
 ## Getting Started
