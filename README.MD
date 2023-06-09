@@ -3,7 +3,7 @@
 
 ![image](https://raw.githubusercontent.com/Sugal99/php-crud-api/master/RainyDays_Logo%201.png)
 
-A Website for users to check out and buy all kinds of jackets.
+A Website for users to check out and buy all kinds of jackets. The types of jackets that you can buy, are suited for all weathers espesically rain!
 
 ## Description
 
